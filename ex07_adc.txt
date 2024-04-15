@@ -1,0 +1,7 @@
+import spidevRead as sr
+import time
+
+while True :
+    read = sr.analog_read(0)
+    print(f'Data : {read}')
+    time.sleep(0.5)
